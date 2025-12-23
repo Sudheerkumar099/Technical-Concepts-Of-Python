@@ -9,5 +9,5 @@ finally :
     
 n2 = "abcd"
 if not type(n2) is int:
-   # raise TypeError("ONLY INTEGER VALUES ARE ALLOWED") #raise keyword thorws an error 
+   #raise TypeError("ONLY INTEGER VALUES ARE ALLOWED") #raise keyword thorws an error 
     raise Exception("THIS SI GENERIC EXCEPTION")

@@ -42,7 +42,7 @@ p2 = Person("Tobias", 25)
 print(p1.name, p1.age)
 print(p2.name, p2.age)'''
 
-sudheer = Person("Sudheerr",22)
+sudheer = Person("Sudheerr")
 willy = Person("Willy")
 john = Person("John")
 
@@ -86,3 +86,4 @@ print(name[3])
 #call function
 person3 = Person(name="ajay")
 print(sudheer())
+print(repr(sudheer))
