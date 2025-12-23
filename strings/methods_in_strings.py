@@ -1,7 +1,7 @@
-# first_name = "Sudheer"
-# last_name = "Kumar"
-# full_name = f"({len(first_name)} {3+3})"
-# print(full_name)
+first_name = "Sudheer"
+last_name = "Kumar"
+full_name = f"({len(first_name)} {3+3})"
+print(full_name)
 
 course_name = "Python Programming"
 upper = course_name.upper()
@@ -17,3 +17,6 @@ print(course_name.replace("Python", "Java")) #replaces the substring with new su
 print(course_name)
 print("Programming" in course_name) #checks if the substring is present in the string or not and returns boolean value
 print("programming" not in course_name) #checks if the substring is not present in the string or not and returns boolean value
+
+def my_fun(n):
+    print(n)
