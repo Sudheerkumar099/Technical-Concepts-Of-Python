@@ -1,10 +1,10 @@
 from parent import Parent
 class Student(Parent):
     def __init__(self,name,age):
-        #super().__init__(name)
-        self.name=name
+        super().__init__(name)
         self.age = age
-        print("sdfghjkl")
        
-p = Parent("abc")
 
+S = Student("Sudheer",22)
+print(S.species)
+print(S.name)

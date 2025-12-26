@@ -1,6 +1,6 @@
 class Parent:
     species = "Human" 
-    def __init__(self,name="abc"):
+    def __init__(self,name):
         self.name = name
         print(self.__dict__)
     
